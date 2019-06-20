@@ -1,0 +1,62 @@
+
+#calendar {
+    width: 90%;
+    margin: 3em auto 0;
+    overflow: hidden;
+}
+
+button {
+    height: 70px;
+    width: 100px;
+}
+
+.fc-center h2 {
+    font-size: 3em;
+}
+
+th span {
+    font-size: 1.5em;
+}
+
+td {
+    width: 60%;
+}
+
+tr {
+    height: 50px;
+}
+
+.fc-time-grid-event {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fc-time span {
+    font-size: 1.5em;
+}
+
+.fc-title {
+    font-size: 2em;
+}
+
+.addBtn {
+    position: fixed;
+    bottom: 3%; 
+    right: 5%;
+    width: 100px;
+    height: 100px;
+    line-height: 50px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    background: #008DDD;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.fa-plus {
+    padding-top: 18px;
+}
