@@ -1,0 +1,83 @@
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.contants {
+    width: 90%;
+    margin: 3em auto 0;
+    text-align: center;
+}
+
+.qName {
+    display: flex;
+}
+
+.qName h2 {
+    width: 50%;
+    margin-left: 0;
+}
+
+.qName h3 {
+    width: 50%;
+    margin-right: 0;
+}
+
+.answerCheck {
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+.contMiddle {
+    margin: 2em auto;
+}
+
+.qText {
+    background-color: cyan;
+    margin: 2em auto;
+    text-align: left;
+    width: 90%;
+}
+
+.qList {
+    display: flex;
+    width: 80%;
+    margin: 2em auto;
+}
+
+.qList h3 {
+    width: 50%;
+    margin-left: 0;
+}
+
+input[type=radio]{
+    width: 50%;
+    margin-right: 0;
+}
+
+.contFotter {
+    margin-top: 3em;
+}
+
+.answerBtn {
+    padding-bottom: 2em;
+}
+
+.delEdit {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.editBtn {
+    width: 50%;
+    margin-left: 0;
+}
+
+.delBtn {
+    width: 50%;
+    margin-right: 0;
+}

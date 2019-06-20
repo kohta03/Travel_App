@@ -3,10 +3,10 @@ function toggleNav() {
     var hamburger = document.getElementById('js-hamburger');
     var blackBg = document.getElementById('js-black-bg');
 
-    hamburger.addEventListener('click', function() {
+    hamburger.addEventListener('touchstart', function() {
         body.classList.toggle('nav-open');
     });
-    blackBg.addEventListener('click', function() {
+    blackBg.addEventListener('touchstart', function() {
         body.classList.remove('nav-open');
     });
 }
